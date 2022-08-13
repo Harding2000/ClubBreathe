@@ -1,20 +1,20 @@
 html {
-	/*using the full window*/
-	box-sizing: border-box;
-    width: 100%;
-    height: 100%;
-    /*allowing to center the text*/
-    display: flex;
-    justify-content: center;
-    align-content: center;
+	/*using the full window*/box-sizing: 
+	border-box;
+	width: 100%;
+	height: 100%;
+	/*allowing to center the text*/
+    	display: flex;
+    	justify-content: center;
+    	align-content: center;
 	font-family: 'Silkscreen', cursive;
 	/* below this is for the background picture to be responsive*/
-	 background: url(fabian-moller-gI7zgb80QWY-unsplash.png) no-repeat center center fixed; 
+	background: url(fabian-moller-gI7zgb80QWY-unsplash.png) no-repeat center center fixed; 
 	 /*allowing this to work on browsers*/
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
+  	-webkit-background-size: cover;
+	  -moz-background-size: cover;
+	  -o-background-size: cover;
+	  background-size: cover;
 }
 
 /*this is putting all headings and sections in the midlle of the page*/
