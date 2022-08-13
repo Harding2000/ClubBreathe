@@ -1,0 +1,43 @@
+html {
+	/*using the full window*/
+	box-sizing: border-box;
+    width: 100%;
+    height: 100%;
+    /*allowing to center the text*/
+    display: flex;
+    justify-content: center;
+    align-content: center;
+	font-family: 'Silkscreen', cursive;
+	/* below this is for the background picture to be responsive*/
+	 background: url(fabian-moller-gI7zgb80QWY-unsplash.png) no-repeat center center fixed; 
+	 /*allowing this to work on browsers*/
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+/*this is putting all headings and sections in the midlle of the page*/
+.container {
+	display: flex;
+	text-align: center;
+	height: 100%;
+}
+/*bold font and color*/
+h1 {
+	font-weight: 700;
+	color: deeppink;
+}
+
+/*this is spacing out the head from the button*/
+.space {
+	margin: 30em;
+	margin-left: 35em;
+}
+/*gives the button its shape and color*/
+.btn-primary {
+	border-radius: 30px;
+	border-color: deeppink;
+	background-color:deeppink;
+	padding: 10px 30px;
+}
